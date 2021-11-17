@@ -5,15 +5,25 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
-  "files": ["dist"],
-  "keywords": ["esbuild", "swc", "frontend"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "esbuild",
+    "swc",
+    "frontend"
+  ],
   "author": "sanyuan0704",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.7",
     "esbuild": "^0.13.14",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   },
   "dependencies": {
