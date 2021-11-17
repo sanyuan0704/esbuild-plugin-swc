@@ -1,0 +1,23 @@
+{
+  "name": "esbuild-plugin-swc",
+  "version": "1.0.1",
+  "description": "Esbuild plugin for using swc",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "files": ["dist"],
+  "keywords": ["esbuild", "swc", "frontend"],
+  "author": "sanyuan0704",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "esbuild": "^0.13.14",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@swc/core": "^1.2.108",
+    "deepmerge": "^4.2.2"
+  }
+}
